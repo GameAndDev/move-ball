@@ -18,8 +18,8 @@ var Xscreen = window.innerWidth;
 var Yscreen = window.innerHeight;
 console.log("Xscreen = " + Xscreen );
 console.log("Yscreen = " + Yscreen);
-var Xcircle = window.innerWidth/2;
-var Ycircle = window.innerHeight/2;
+var Xcircle = Xscreen/2;
+var Ycircle = Yscreen/2;
 
 context.beginPath();
 context.fillStyle = "#e91c1c";
